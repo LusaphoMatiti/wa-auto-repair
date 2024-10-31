@@ -1,5 +1,5 @@
 import React from "react";
-import clutch from "../images/clutch-disc.jpg";
+import clutch from "../images/clutch.jpg";
 import clutchIcon from "../images/clutch.png";
 import { Link } from "react-router-dom";
 
