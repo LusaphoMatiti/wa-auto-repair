@@ -1,6 +1,6 @@
 import React from "react";
 import "../../index.css";
-import tools from "../images/tools.jpg";
+import tools from "/tools.jpg";
 import { Link } from "react-router-dom";
 
 const CTA = () => {

@@ -1,6 +1,6 @@
 import React from "react";
-import clutch from "../images/clutch.jpg";
-import clutchIcon from "../images/clutch.png";
+import clutch from "/clutch.jpg";
+import clutchIcon from "/clutch.png";
 import { Link } from "react-router-dom";
 
 const Engine = () => {

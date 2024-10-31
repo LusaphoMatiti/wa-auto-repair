@@ -1,6 +1,6 @@
 import React from "react";
-import elec from "../images/electrical-diagnostics.jpg";
-import diagnosticIcon from "../images/diagnostic.png";
+import elec from "/electrical-diagnostics.jpg";
+import diagnosticIcon from "/diagnostic.png";
 import { Link } from "react-router-dom";
 
 const Elec = () => {

@@ -1,8 +1,8 @@
 import React from "react";
 import "../../index.css";
-import speech from "../images/Speech bubble.png";
-import spanner from "../images/spanner.png";
-import truck from "../images/tow-truck.png";
+import speech from "/Speech bubble.png";
+import spanner from "/spanner.png";
+import truck from "/tow-truck.png";
 
 const Whychoose = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import suspension from "../images/suspension.jpg";
-import suspensionIcon from "../images/suspension.png";
+import suspension from "/suspension.jpg";
+import suspensionIcon from "/suspension.png";
 import { Link } from "react-router-dom";
 
 const Engine = () => {

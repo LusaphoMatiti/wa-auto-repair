@@ -1,6 +1,6 @@
 import React from "react";
-import engine from "../images/engine.jpg";
-import engineIcon from "../images/engine.png";
+import engine from "/engine.jpg";
+import engineIcon from "/engine.png";
 import { Link } from "react-router-dom";
 
 const Engine = () => {

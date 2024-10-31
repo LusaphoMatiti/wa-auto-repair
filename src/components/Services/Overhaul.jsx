@@ -1,6 +1,6 @@
 import React from "react";
-import overhaul from "../images/overhaul-p.png";
-import overHaulIcon from "../images/overhaul.png";
+import overhaul from "/overhaul-p.png";
+import overHaulIcon from "/overhaul.png";
 import { Link } from "react-router-dom";
 
 const Engine = () => {

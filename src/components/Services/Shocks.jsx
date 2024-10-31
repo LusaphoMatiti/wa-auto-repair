@@ -1,6 +1,6 @@
 import React from "react";
-import shocks from "../images/shocks.jpg";
-import shocksIcon from "../images/shocks.png";
+import shocks from "/shocks.jpg";
+import shocksIcon from "/shocks.png";
 import { Link } from "react-router-dom";
 
 const Shocks = () => {

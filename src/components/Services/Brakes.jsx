@@ -1,6 +1,6 @@
 import React from "react";
-import brakes from "../images/brakes.jpg";
-import brakesIcon from "../images/brakes.png";
+import brakes from "/brakes.jpg";
+import brakesIcon from "/brakes.png";
 import { Link } from "react-router-dom";
 
 const Engine = () => {

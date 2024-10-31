@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import "../../index.css"; // Assuming you're using TailwindCSS
-import engine from "../images/engine.png";
-import gearbox from "../images/gearbox.png";
-import clutch from "../images/clutch.png";
-import brakes from "../images/brakes.png";
-import cv from "../images/cv-joint.png";
-import overhaul from "../images/overhaul.png";
-import image from "../images/services.jpg";
+import engine from "/engine.png";
+import gearbox from "/gearbox.png";
+import clutch from "/clutch.png";
+import brakes from "/brakes.png";
+import cv from "/cv-joint.png";
+import overhaul from "/overhaul.png";
+import image from "/services.jpg";
 import { Link } from "react-router-dom";
 
 const servicesData = [

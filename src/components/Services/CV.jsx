@@ -1,6 +1,6 @@
 import React from "react";
-import cvJoint from "../images/cvJoint.jpg";
-import cvIcon from "../images/cv-joint.png";
+import cvJoint from "/cvJoint.jpg";
+import cvIcon from "/cv-joint.png";
 import { Link } from "react-router-dom";
 
 const Engine = () => {

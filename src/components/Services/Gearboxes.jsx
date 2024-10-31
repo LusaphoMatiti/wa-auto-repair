@@ -1,6 +1,6 @@
 import React from "react";
-import gearbox from "../images/gearbox.jpg";
-import gearboxIcon from "../images/gearbox.png";
+import gearbox from "/gearbox.jpg";
+import gearboxIcon from "/gearbox.png";
 import { Link } from "react-router-dom";
 
 const Engine = () => {
