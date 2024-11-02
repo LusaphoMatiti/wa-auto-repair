@@ -22,7 +22,7 @@ const Engine = () => {
         {/* Text Section */}
         <div
           className="lg:w-1/2 mt-10 lg:mt-0 text-center lg:text-left"
-          style={{ maxWidth: "500px", marginLeft: "60px" }}
+          style={{ maxWidth: "500px", marginLeft: "18px" }}
         >
           <span className="inline-flex items-center justify-center p-4 text-white bg-red-500 rounded-full">
             <img src={clutchIcon} alt="Engine Icon" className="w-6 h-6" />
@@ -30,7 +30,7 @@ const Engine = () => {
           <h2 className="mb-4 text-3xl font-bold md:text-5xl">Clutches</h2>
 
           <p className="text-sm text-gray-500 mt-8 sm:text-base md:mb-10 lg:mb-12">
-            TThe clutch allows you to change gears smoothly, a key part of
+            The clutch allows you to change gears smoothly, a key part of
             controlling your vehicle's speed and handling. If you’re
             experiencing slipping, a burning smell, or trouble shifting gears,
             it’s a sign your clutch needs service. Our clutch repair service

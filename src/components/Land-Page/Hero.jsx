@@ -31,7 +31,7 @@ const Hero = () => {
 
   return (
     <div>
-      <section className="relative flex items-center overflow-hidden z-10 h-[50vh] md:h-[70vh] lg:h-screen">
+      <section className="relative h-screen flex items-center overflow-hidden z-10">
         {/* Carousel */}
         <div className="absolute inset-0 w-full h-full">
           <div className="relative h-full w-full">
@@ -45,7 +45,7 @@ const Hero = () => {
                 <img
                   src={img}
                   alt={`Slide ${index + 1}`}
-                  className="w-full h-full object-cover object-center sm:object-[center_top]"
+                  className="w-full h-full object-cover"
                 />
               </div>
             ))}
@@ -98,24 +98,25 @@ const Hero = () => {
         </div>
 
         {/* Content */}
-        <div className="relative py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12 z-10">
-          <div className="backdrop-blur bg-opacity-100 rounded-lg">
-            <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl animate-easeIn">
+        <div className="relative py-6 px-3 mx-auto max-w-screen-md text-center md:py-8 md:px-6 lg:py-16 lg:px-12 z-10">
+          <div className="backdrop-blur bg-opacity-90 rounded-lg p-4 md:p-6 lg:p-8">
+            <h1 className="mb-3 text-3xl font-extrabold tracking-tight leading-snug text-white sm:text-4xl md:text-5xl lg:text-6xl animate-easeIn">
               4 x 4 & Sedan SPECIALIST!
             </h1>
-            <p className="mb-8 text-lg font-normal text-white lg:text-xl sm:px-16 xl:px-48 animate-easeIn">
-              Repairs & servicing of all diesel & petrol vehicles specialising
-              in electronic diagnostic & fault finding.
+            <p className="mb-6 text-sm font-normal text-white sm:text-base md:text-lg lg:text-xl sm:px-6 md:px-12 xl:px-24 animate-easeIn">
+              Repairs & servicing of all diesel & petrol vehicles specializing
+              in electronic diagnostics & fault finding.
             </p>
           </div>
 
-          <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-            <Link
-              to="/contact"
-              className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-red-700 dark:hover:bg-red-700 dark:focus:ring-red-800 cursor-pointer transition-colors"
+          <div className="flex flex-col mb-6 md:mb-8 lg:mb-16 space-y-3 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+            <button
+              type="submit"
+              class=" mt-10 py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-red-800 hover:bg-red-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80"
             >
-              Contact Us
-            </Link>
+              {" "}
+              <Link to="/contact">Contact Us</Link>
+            </button>
           </div>
         </div>
       </section>

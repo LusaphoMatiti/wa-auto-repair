@@ -147,7 +147,10 @@ const Services = () => {
                 <h1 className="text-xl font-semibold text-white capitalize dark:text-white">
                   {component.title}
                 </h1>
-                <p className="text-white text-center md:w-3/4 lg:w-1/2 mx-auto">
+                <p
+                  className="text-white text-center md:w-3/4 lg:w-1/2 mx-auto"
+                  style={{ maxWidth: "250px" }} // Change 600px to your desired max width
+                >
                   {component.description}
                 </p>
                 <Link

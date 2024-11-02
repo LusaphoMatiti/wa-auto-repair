@@ -24,10 +24,10 @@ const CTA = () => {
           </h2>
 
           <p className="mt-4 text-black-500 dark:text-black-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem modi
-            reprehenderit vitae exercitationem aliquid dolores ullam temporibus
-            enim expedita aperiam mollitia iure consectetur dicta tenetur, porro
-            consequuntur saepe accusantium consequatur.
+            Your car deserves expert attention, whether it’s for a quick fix or
+            a major repair. Our skilled team is ready to get you back on the
+            road safely. From diagnostics to complete repairs, we handle it all.
+            Contact us today, let’s keep your car running smoothly!
           </p>
 
           {/* CTA Button */}

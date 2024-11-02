@@ -22,7 +22,7 @@ const Engine = () => {
         {/* Text Section */}
         <div
           className="lg:w-1/2 mt-10 lg:mt-0 text-center lg:text-left"
-          style={{ maxWidth: "500px", marginLeft: "60px" }}
+          style={{ maxWidth: "500px", marginLeft: "18px" }}
         >
           <span className="inline-flex items-center justify-center p-4 text-white bg-red-500 rounded-full">
             <img src={brakesIcon} alt="Engine Icon" className="w-6 h-6" />
