@@ -30,25 +30,6 @@ const Whychoose = () => {
               If you want the quality you would expect from the dealership, but
               with a more personal and friendly atmosphere, you have found it.
             </p>
-
-            <a
-              href="#"
-              className="flex items-center -mx-1 text-sm text-red-500 capitalize transition-colors duration-300 transform dark:text-red-400 hover:underline hover:text-red-600 dark:hover:text-red-500"
-            >
-              <span className="mx-1">read more</span>
-              <svg
-                className="w-4 h-4 mx-1 rtl:-scale-x-100"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </a>
           </div>
 
           <div className="flex flex-col items-center p-6 space-y-3 text-center bg-white-500 shadow-lg rounded-xl dark:bg-white-800">
@@ -69,25 +50,6 @@ const Whychoose = () => {
               assessments and high-quality repairs, no matter the make or model
               of your vehicle.
             </p>
-
-            <a
-              href="#"
-              className="flex items-center -mx-1 text-sm text-red-500 capitalize transition-colors duration-300 transform dark:text-red-400 hover:underline hover:text-red-600 dark:hover:text-red-500"
-            >
-              <span className="mx-1">read more</span>
-              <svg
-                className="w-4 h-4 mx-1 rtl:-scale-x-100"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </a>
           </div>
 
           <div className="flex flex-col items-center p-6 space-y-3 text-center bg-white-500 shadow-lg rounded-xl dark:bg-white-800">
@@ -107,25 +69,6 @@ const Whychoose = () => {
               Our auto repair shop is capable of servicing a variety of models.
               We only do the work that is needed to fix your problem.
             </p>
-
-            <a
-              href="#"
-              className="flex items-center -mx-1 text-sm text-red-500 capitalize transition-colors duration-300 transform dark:text-red-400 hover:underline hover:text-red-600 dark:hover:text-red-500"
-            >
-              <span className="mx-1">read more</span>
-              <svg
-                className="w-4 h-4 mx-1 rtl:-scale-x-100"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </a>
           </div>
         </div>
       </div>

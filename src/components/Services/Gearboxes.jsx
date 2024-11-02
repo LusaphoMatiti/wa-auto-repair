@@ -51,7 +51,7 @@ const Engine = () => {
           <p className="mt-10 text-gray-500">
             Related Service:{" "}
             <span className="text-blue-500 hover:text-blue-800 underline">
-              <a href="">Clutch Repair</a>
+              <Link to="/services/clutches">Clutch Repair</Link>
             </span>{" "}
             for better engine performance and longevity.
           </p>

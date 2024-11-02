@@ -51,12 +51,12 @@ const Engine = () => {
           <p className="mt-10 text-gray-500">
             Related Service:{" "}
             <span className="text-blue-500 hover:text-blue-800 underline">
-              <a href="">Engine Repair</a>
+              <Link to="/services/engine">Engine Repair</Link>
             </span>{" "}
             and
             <span className="text-blue-500 hover:text-blue-800 underline">
               {" "}
-              <a href="">Brakes</a>
+              <Link to="/services/brakes">Brakes</Link>
             </span>
           </p>
         </div>

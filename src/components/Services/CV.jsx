@@ -48,7 +48,7 @@ const Engine = () => {
           <p className="mt-10 text-gray-500">
             Related Service:{" "}
             <span className="text-blue-500 hover:text-blue-800 underline">
-              <a href="">Suspension Repair</a>
+              <Link to="/services/suspension">Suspension Repair</Link>
             </span>{" "}
             for a better, safer driving experience.
           </p>

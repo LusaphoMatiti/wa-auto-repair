@@ -31,18 +31,23 @@ const Hero = () => {
 
   return (
     <div>
-      <section className="relative h-screen flex items-center overflow-hidden z-10">
+      <section className="relative flex items-center overflow-hidden z-10 h-[50vh] md:h-[70vh] lg:h-screen">
         {/* Carousel */}
         <div className="absolute inset-0 w-full h-full">
           <div className="relative h-full w-full">
             {images.map((img, index) => (
               <div
                 key={index}
-                className={`absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-in-out ${
+                className={`absolute inset-0 flex items-center justify-center transition-opacity duration-1000 ease-in-out ${
                   index === currentImageIndex ? "opacity-100" : "opacity-0"
                 }`}
-                style={{ backgroundImage: `url(${img})` }}
-              ></div>
+              >
+                <img
+                  src={img}
+                  alt={`Slide ${index + 1}`}
+                  className="w-full h-full object-cover object-center sm:object-[center_top]"
+                />
+              </div>
             ))}
           </div>
           {/* Carousel Controls */}
@@ -95,10 +100,10 @@ const Hero = () => {
         {/* Content */}
         <div className="relative py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12 z-10">
           <div className="backdrop-blur bg-opacity-100 rounded-lg">
-            <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white animate-easeIn">
+            <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl animate-easeIn">
               4 x 4 & Sedan SPECIALIST!
             </h1>
-            <p className="mb-8 text-lg font-normal dark:text-white lg:text-xl sm:px-16 xl:px-48 animate-easeIn">
+            <p className="mb-8 text-lg font-normal text-white lg:text-xl sm:px-16 xl:px-48 animate-easeIn">
               Repairs & servicing of all diesel & petrol vehicles specialising
               in electronic diagnostic & fault finding.
             </p>
