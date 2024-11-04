@@ -4,9 +4,10 @@ import "../../index.css";
 import hero1 from "/hero.jpg";
 import hero2 from "/heroOne.jpg";
 import hero3 from "/heroTwo.jpg";
+import workshop from "/workshop.jpg";
 
 const Hero = () => {
-  const images = [hero1, hero2, hero3];
+  const images = [hero1, workshop, hero2, hero3];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   // Auto-slide the carousel every 5 seconds
@@ -98,26 +99,23 @@ const Hero = () => {
         </div>
 
         {/* Content */}
-        <div className="relative py-6 px-3 mx-auto max-w-screen-md text-center md:py-8 md:px-6 lg:py-16 lg:px-12 z-10">
-          <div className="backdrop-blur bg-opacity-90 rounded-lg p-4 md:p-6 lg:p-8">
-            <h1 className="mb-3 text-3xl font-extrabold tracking-tight leading-snug text-white sm:text-4xl md:text-5xl lg:text-6xl animate-easeIn">
+        <div className="relative py-3 px-2 mx-auto max-w-screen-sm text-center sm:py-6 sm:px-3 md:py-8 md:px-6 lg:py-16 lg:px-12 z-10">
+          <div className="backdrop-blur bg-opacity-90 rounded-lg p-3 sm:p-4 md:p-6 lg:p-8">
+            <h1 className="mb-2 text-2xl font-extrabold tracking-tight leading-snug text-white sm:text-3xl md:text-5xl lg:text-6xl animate-easeIn">
               4 x 4 & Sedan SPECIALIST!
             </h1>
-            <p className="mb-6 text-sm font-normal text-white sm:text-base md:text-lg lg:text-xl sm:px-6 md:px-12 xl:px-24 animate-easeIn">
+            <p className="mb-4 text-xs font-normal text-white sm:text-sm md:text-lg lg:text-xl sm:px-4 md:px-12 xl:px-24 animate-easeIn">
               Repairs & servicing of all diesel & petrol vehicles specializing
               in electronic diagnostics & fault finding.
             </p>
           </div>
 
-          <div className="flex flex-col mb-6 md:mb-8 lg:mb-16 space-y-3 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-            <button
-              type="submit"
-              class=" mt-10 py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-red-800 hover:bg-red-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80"
-            >
-              {" "}
-              <Link to="/contact">Contact Us</Link>
-            </button>
-          </div>
+          <button
+            type="submit"
+            className="mt-8 py-2 px-4 text-xs font-medium text-center text-white rounded-lg bg-red-800 hover:bg-red-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80"
+          >
+            <Link to="/contact">Contact Us</Link>
+          </button>
         </div>
       </section>
     </div>

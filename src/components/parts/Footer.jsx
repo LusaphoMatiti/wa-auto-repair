@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaPhone } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import "../../index.css";
 
 const Footer = () => {
@@ -84,11 +87,16 @@ const Footer = () => {
                   ],
                 },
                 {
-                  title: "Contact",
-                  contacts: [
-                    "076 432 8576 / 061 884 5728",
-                    "waautorepairs00@email.com / skamanena@gmail.com",
-                  ],
+                  title: "Whatsapp",
+                  whatsapp: ["061 884 5728 / 071 358 6828"],
+                },
+                {
+                  title: "Phone",
+                  call: ["076 432 8576"],
+                },
+                {
+                  title: "Email",
+                  email: ["waautorepairs00@email.com / skamanena@gmail.com"],
                 },
               ].map((section, index) => (
                 <div key={index}>
@@ -105,14 +113,65 @@ const Footer = () => {
                         {link.name}
                       </Link>
                     ))}
-                  {section.contacts &&
-                    section.contacts.map((contact, i) => (
-                      <span
-                        key={i}
-                        className="block mt-2 text-sm text-black  hover:text-red-500 cursor-pointer"
-                      >
-                        {contact}
-                      </span>
+                  {section.whatsapp &&
+                    section.whatsapp.map((whatsapp, i) => (
+                      <div className="container mx-auto flex flex-col sm:flex-row justify-between">
+                        <div className="flex items-center mb-2 sm:mb-0">
+                          <span
+                            key={i}
+                            to={whatsapp.path}
+                            className="text-lg sm:text-xl mr-2 text-green-400"
+                          >
+                            <FaWhatsapp />
+                          </span>
+                          <span
+                            key={i}
+                            className="block mt-2 text-sm text-black"
+                          >
+                            {whatsapp}
+                          </span>
+                        </div>
+                      </div>
+                    ))}
+                  {section.call &&
+                    section.call.map((call, i) => (
+                      <div className="container mx-auto flex flex-col sm:flex-row justify-between ">
+                        <div className="flex items-center mb-2 sm:mb-0">
+                          <span
+                            key={i}
+                            to={call.path}
+                            className="text-lg sm:text-xl mr-2 text-gray-400"
+                          >
+                            <FaPhone />
+                          </span>
+                          <span
+                            key={i}
+                            className="block mt-2 text-sm text-black"
+                          >
+                            {call}
+                          </span>
+                        </div>
+                      </div>
+                    ))}
+                  {section.email &&
+                    section.email.map((email, i) => (
+                      <div className="container mx-auto flex flex-col sm:flex-row justify-between ">
+                        <div className="flex items-center mb-2 sm:mb-0">
+                          <span
+                            key={i}
+                            to={email.path}
+                            className="text-lg sm:text-xl mr-2 text-gray-400"
+                          >
+                            <FaEnvelope />
+                          </span>
+                          <span
+                            key={i}
+                            className="block mt-2 text-sm text-black "
+                          >
+                            {email}
+                          </span>
+                        </div>
+                      </div>
                     ))}
                 </div>
               ))}

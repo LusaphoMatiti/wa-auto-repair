@@ -1,6 +1,7 @@
 import React from "react";
 import "../index.css";
 import { FaWhatsapp } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa";
 
 const ContactUs = () => {
   return (
@@ -111,15 +112,21 @@ const ContactUs = () => {
               </p>
 
               <div className="flex items-center mb-2 sm:mb-0">
-                <span className="text-lg sm:text-xl mr-2 text-green-500">
+                <span className="text-lg sm:text-xl mr-2 text-green-400">
                   <FaWhatsapp />
                 </span>
-                <a
-                  href="076 432 8576"
-                  className="mt-2 text-sm text-red-500 dark:text-red-400"
-                >
-                  076 432 8576 / 076 615 5998
-                </a>
+                <span className="block mt-2 text-sm text-red-500 dark:text-red-400">
+                  061 884 5728 / 071 358 6828
+                </span>
+              </div>
+
+              <div className="flex items-center mb-2 sm:mb-0">
+                <span className="text-lg sm:text-xl mr-2 text-gray-400">
+                  <FaPhone />
+                </span>
+                <span className="block mt-2 text-sm text-red-500 dark:text-red-400">
+                  076 432 8576
+                </span>
               </div>
             </div>
           </div>

@@ -14,7 +14,7 @@ const ContactInfo = () => {
             href="tel:+1234567890"
             className="text-gray-800 hover:text-gray-600 font-semibold text-sm sm:text-base hover:underline pr-5"
           >
-            076 432 8576 / 076 615 5998
+            061 884 5728 / 071 358 6828
           </a>
         </div>
         <div className="flex items-center mb-2 sm:mb-0">
