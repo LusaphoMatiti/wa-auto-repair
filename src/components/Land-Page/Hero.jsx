@@ -100,11 +100,11 @@ const Hero = () => {
 
         {/* Content */}
         <div className="relative py-3 px-2 mx-auto max-w-screen-sm text-center sm:py-6 sm:px-3 md:py-8 md:px-6 lg:py-16 lg:px-12 z-10">
-          <div className="backdrop-blur bg-opacity-90 rounded-lg p-3 sm:p-4 md:p-6 lg:p-8">
+          <div className="backdrop-blur bg-opacity-90 rounded-lg p-3 sm:p-4 md:p-6 lg:p-10">
             <h1 className="mb-2 text-2xl font-extrabold tracking-tight leading-snug text-white sm:text-3xl md:text-5xl lg:text-6xl animate-easeIn">
               4 x 4 & Sedan SPECIALIST!
             </h1>
-            <p className="mb-4 text-xs font-normal text-white sm:text-sm md:text-lg lg:text-xl sm:px-4 md:px-12 xl:px-24 animate-easeIn">
+            <p className="mb-4 text-xs font-normal text-white sm:text-sm md:text-lg lg:text-xl sm:px-4 md:px-12 xl:px-30 animate-easeIn">
               Repairs & servicing of all diesel & petrol vehicles specializing
               in electronic diagnostics & fault finding.
             </p>
@@ -112,7 +112,7 @@ const Hero = () => {
 
           <button
             type="submit"
-            className="mt-8 py-2 px-4 text-xs font-medium text-center text-white rounded-lg bg-red-800 hover:bg-red-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80"
+            className="mt-8 py-3 px-6 text-m font-medium text-center text-white rounded-lg bg-red-800 hover:bg-red-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80"
           >
             <Link to="/contact">Contact Us</Link>
           </button>
